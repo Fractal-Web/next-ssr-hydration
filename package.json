@@ -1,5 +1,5 @@
 {
-  "name": "next-ssr-hydration",
+  "name": "@fractal-web/next-ssr-hydration",
   "version": "0.0.0-development",
   "description": "A template for creating npm packages using TypeScript and VSCode",
   "main": "./lib/index.js",
@@ -50,6 +50,7 @@
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
     "@types/jest": "^27.5.2",
     "@types/node": "^12.20.11",
+    "@types/react": "^18.3.3",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
@@ -118,5 +119,9 @@
       "@semantic-release/npm",
       "@semantic-release/github"
     ]
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1"
   }
 }
